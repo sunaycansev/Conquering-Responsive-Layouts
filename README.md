@@ -27,7 +27,7 @@
 > ![Project Image](./challenge-03/project-img.png)
 
 ## Day 8
-> Flexbox Basics
+> Flexbox Basics Challenge
 
 ## Day 9
 > Deeper dive into Flexbox
