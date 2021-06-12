@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 100%;
+  background-color: #23424a;
+  height: 450px;
+  margin: 0 auto;
+}
+
+.design {
+  width: 80%;
+  max-width: 750px;
+  margin: auto 3rem;
+  padding: 50px 0;
+}
+.container__text {
+  width: 70%;
+}
+.design h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+
+  letter-spacing: 3px;
+  margin-bottom: 3rem;
+}
+.design p {
+  font-size: 1.3;
+  font-weight: 400;
+  color: #fff;
+
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+}
+.design a {
+  font-size: 1.3rem;
+  width: 40%;
+  color: #000;
+  padding: 15px;
+  margin-top: 2rem;
+
+  /* gradent background */
+  background: #02aab0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #00cdac,
+    #02aab0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #00cdac,
+    #02aab0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 31px;
+  border: none;
+  transition: all 0.5s ease-out;
+}
+.design a:hover {
+  opacity: 0.75;
+  background: #16a085; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f4d03f,
+    #16a085
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f4d03f,
+    #16a085
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.three-col {
+  padding: 3rem;
+  text-align: center;
+}
+.row {
+  display: flex;
+
+  margin: 2rem 4rem;
+}
+.col {
+  width: 100%;
+}
+.col + .col {
+  margin-left: 3rem;
+}
+.row .col h2 {
+  text-align: center;
+  font-size: 2.3rem;
+  color: #87629a;
+}
+.row p {
+  font-size: 1.2rem;
+}
+.two-col {
+  background: #136c72;
+  text-align: center;
+  color: #fff;
+  padding: 3rem 0;
+}
+.second-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 4rem;
+  padding: 3rem 0;
+}
+
+.second-row h2 {
+  text-align: center;
+  font-size: 2.3rem;
+  color: #87629a;
+}
+.second-row p {
+  font-size: 1.2rem;
+}
